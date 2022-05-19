@@ -2,6 +2,7 @@
   "name": "drei",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Gurkirat-singh-oye.github.io",
   "dependencies": {
     "@react-three/drei": "^9.8.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -20,6 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "es-module-loader": "^2.3.0"
+    "es-module-loader": "^2.3.0",
+    "gh-pages": "^4.0.0"
   }
 }
