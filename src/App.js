@@ -8,7 +8,7 @@ import {useGLTF as loadgltf, useFBX as loadfbx, OrbitControls} from "@react-thre
 import React, { useEffect, useState } from 'react'
 
 const uuid = require('uuid')
-const api_url = 'https://fabrik-assign-backend.herokuapp.com'
+const api_url = 'https://fabrik-backend-2.herokuapp.com'
 
 function reloadcomp() {
   window.location.reload(false)
