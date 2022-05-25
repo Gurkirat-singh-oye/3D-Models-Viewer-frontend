@@ -1,46 +1,72 @@
 .App {
+  padding: 1em;
   text-align: center;
 }
 
 body {
-  width: 100%;
+  /* width: 100%; */
   overflow: auto;
   display: flex;
   flex-direction: column;
-  background-color: rgb(43, 43, 43);
+  /* background-color: rgba(43, 43, 43, 0); */
+  background-image: radial-gradient(at 62.5% bottom,rgb(95, 95, 95), rgb(20, 20, 20), rgb(0, 0, 0));
   color: blanchedalmond;
+}
+
+.titlenav {
+  padding: 1.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24), 0 1px 5px 0 rgba(0,0,0,0.19);
+  border: 0.5px solid #ffffff;
+}
+.eldestchild {
+  padding: 1em;
+  width: 100%;
 }
 
 .oopshuns {
   float: left;
-}
-
-.Modelselector {
-  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: center;
+  width: 25%;
 }
+
+/* .Modelselector {
+  
+} */
 
 .nameplate:hover {
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24), 0 1px 5px 0 rgba(0,0,0,0.19);
 }
 
-.nameplate {
+.nameplate2 {
   float: center;
-  min-height: 40px;
-  width: 300px;
   border: none;
   border-radius: 9px;
   background-color: #0000002c;
   color: aliceblue;
   align-items: center;
   justify-content: center;
+  min-height: 40px;
+  width: 300px;
+}
+
+.nameplate {
+  float: center;
+  border: none;
+  border-radius: 9px;
+  background-color: #0000002c;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  width: 100%;
 }
 
 .rcan {
-  background-color: #a2c0cf49;
+  background-color: #a2c0cf00;
   border-radius: 8px;
   width: 75%;
   height: 60%;
@@ -50,5 +76,5 @@ body {
   float: right;
   display: flex;
   width: 75%;
-  height: 350px;
+  height: 70vh;
 }

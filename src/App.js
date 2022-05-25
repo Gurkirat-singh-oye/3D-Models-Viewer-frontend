@@ -22,13 +22,13 @@ function FileUpload() {
     let formd = new FormData()
     formd.append("model", file)
     Axios.post(`${api_url}/storeamodel`, formd)
-    //.then(() => {      reloadcomp()})
+    .then(() => {      reloadcomp()})
   }
 
   return (
     <div>
       <input type="file" onChange={(e) => {setFile(e.target.files[0])}}/>
-        <button onClick={(e) => upload(e)} className='nameplate'>
+        <button onClick={(e) => upload(e)} className='nameplate2'>
           Upload
         </button>
     </div>
@@ -51,12 +51,13 @@ function App() {
   function Selector() {
     return (
       <div className='oopshuns'>
+        <h3>Models</h3>
           {model.map((fname) => (
-            <div key={uuid.v4()} className='Modelselector'>
+            // <div key={uuid.v4()} className='Modelselector'>
               <button  onClick={() => type(fname)} className="nameplate">
                 {fname}
               </button>
-            </div>
+            // </div>
         ))}
       </div>
     )
@@ -93,6 +94,9 @@ function App() {
 
   return (
     <>
+    <div className='titlenav'>
+      <h2>FABRIK-ASSIGNMENT</h2>
+    </div>
     <div className="App">
       Upload your model
       <FileUpload/>
