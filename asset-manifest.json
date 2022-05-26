@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Gurkirat-singh-oye/static/css/main.224408f7.css",
-    "main.js": "/Gurkirat-singh-oye/static/js/main.5eec6b90.js",
+    "main.js": "/Gurkirat-singh-oye/static/js/main.d447ff9d.js",
     "index.html": "/Gurkirat-singh-oye/index.html",
     "main.224408f7.css.map": "/Gurkirat-singh-oye/static/css/main.224408f7.css.map",
-    "main.5eec6b90.js.map": "/Gurkirat-singh-oye/static/js/main.5eec6b90.js.map"
+    "main.d447ff9d.js.map": "/Gurkirat-singh-oye/static/js/main.d447ff9d.js.map"
   },
   "entrypoints": [
     "static/css/main.224408f7.css",
-    "static/js/main.5eec6b90.js"
+    "static/js/main.d447ff9d.js"
   ]
 }
