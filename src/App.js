@@ -95,7 +95,7 @@ function App() {
   return (
     <>
     <div className='titlenav'>
-      <h2>FABRIK-ASSIGNMENT</h2>
+      <h2>3D Model Viewer</h2>
     </div>
     <div className="App">
       Upload your model
