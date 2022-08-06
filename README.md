@@ -1,3 +1,16 @@
+
+I DON'T KNOW WHAT I AM DOING
+
+
+
+
+
+
+
+
+
+
+
 #How to launch it
 
 just like any other react app run the command "npm start"
