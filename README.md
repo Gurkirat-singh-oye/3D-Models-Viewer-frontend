@@ -1,12 +1,2 @@
 
-I DON'T KNOW WHAT I AM DOING
-
-
-
-
-
-
-
-
-
-
+Front-end of the Project "3D Models viewer"
